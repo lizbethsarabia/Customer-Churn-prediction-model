@@ -10,7 +10,7 @@ Predict which customers are likely to churn using machine learning (Random Fores
 - Predict churn probability using a trained Random Forest model  
 - Highlight high-risk customers for proactive intervention  
 - Visualize **top 10 feature importances**  
-- Portfolio-ready Streamlit web app
+- Streamlit web app
 
 ---
 
@@ -27,7 +27,8 @@ Predict which customers are likely to churn using machine learning (Random Fores
 
 ## 📁 Files in this Repo
 
-- `streamlit_app.py` : Streamlit application for live predictions  
+- `streamlit_app.py` : Streamlit application for live predictions
+- `Customer_Churn_Modeling` : notebook, creation of model, and analysis
 - `churn_model.pkl` : Pre-trained Random Forest model  
 - `feature_columns.pkl` : Feature list used for input DataFrame  
 - `requirements.txt` : Python dependencies  
@@ -45,6 +46,7 @@ cd customer-churn-app
 pip install -r requirements.txt
 
 streamlit run streamlit_app.py
+
 
 
 
