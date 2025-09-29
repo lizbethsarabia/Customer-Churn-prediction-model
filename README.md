@@ -40,12 +40,13 @@ Predict which customers are likely to churn using machine learning (Random Fores
 
 - Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/customer-churn-app.git
+git clone https://github.com/lizbethsarabia/customer-churn-app.git
 cd customer-churn-app
 
 pip install -r requirements.txt
 
 streamlit run streamlit_app.py
+
 
 
 
