@@ -36,6 +36,13 @@ Predict which customers are likely to churn using machine learning (Random Fores
 
 ---
 
+## Visit site
+https://customer-churn-prediction-model-liz.streamlit.app/
+
+## OR
+
+---
+
 ## How to Run Locally
 
 - Clone the repository:
@@ -46,6 +53,7 @@ cd customer-churn-app
 pip install -r requirements.txt
 
 streamlit run streamlit_app.py
+
 
 
 
